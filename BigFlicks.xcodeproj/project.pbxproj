@@ -7,25 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D0258411C169DB1009D07C6 /* IntroductionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0258401C169DB1009D07C6 /* IntroductionViewController.m */; };
+		6D0258451C16CFAD009D07C6 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0258441C16CFAD009D07C6 /* LoginViewController.m */; };
 		6D535C061C05B8B700D72506 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D535C051C05B8B700D72506 /* main.m */; };
-		6D535C091C05B8B700D72506 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D535C081C05B8B700D72506 /* AppDelegate.m */; };
-		6D535C0C1C05B8B700D72506 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D535C0B1C05B8B700D72506 /* ViewController.m */; };
-		6D535C0F1C05B8B700D72506 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D535C0D1C05B8B700D72506 /* Main.storyboard */; };
 		6D535C111C05B8B700D72506 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D535C101C05B8B700D72506 /* Assets.xcassets */; };
-		6D535C141C05B8B700D72506 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D535C121C05B8B700D72506 /* LaunchScreen.storyboard */; };
+		6D6F41841C15AB9B00F90BEB /* HomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6F416A1C15AB9B00F90BEB /* HomeCollectionViewCell.m */; };
+		6D6F41851C15AB9B00F90BEB /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6F416C1C15AB9B00F90BEB /* HomeTableViewCell.m */; };
+		6D6F41861C15AB9B00F90BEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6F41711C15AB9B00F90BEB /* AppDelegate.m */; };
+		6D6F41871C15AB9B00F90BEB /* CommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6F41741C15AB9B00F90BEB /* CommonViewController.m */; };
+		6D6F41881C15AB9B00F90BEB /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6F41771C15AB9B00F90BEB /* HomeViewController.m */; };
+		6D6F41891C15AB9B00F90BEB /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6F417A1C15AB9B00F90BEB /* MasterViewController.m */; };
+		6D6F418A1C15AB9B00F90BEB /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6F417D1C15AB9B00F90BEB /* SplashViewController.m */; };
+		6D6F418B1C15AB9B00F90BEB /* Localization.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F41801C15AB9B00F90BEB /* Localization.strings */; };
+		6D6F418C1C15AB9B00F90BEB /* UtilityMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6F41831C15AB9B00F90BEB /* UtilityMethods.m */; };
+		6D76E5D41C180ECA00CC52CF /* MovieDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D76E5D31C180ECA00CC52CF /* MovieDetailViewController.m */; };
+		6D76E5D81C18220D00CC52CF /* bouncematic.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6D76E5D71C18220D00CC52CF /* bouncematic.mp4 */; };
+		6DDA2CA11C15B3EF006F925B /* 1242*2208.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DDA2C9D1C15B3EF006F925B /* 1242*2208.png */; };
+		6DDA2CA21C15B3EF006F925B /* 640*1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DDA2C9E1C15B3EF006F925B /* 640*1136.png */; };
+		6DDA2CA31C15B3EF006F925B /* 640*960.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DDA2C9F1C15B3EF006F925B /* 640*960.png */; };
+		6DDA2CA41C15B3EF006F925B /* 750*1334.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DDA2CA01C15B3EF006F925B /* 750*1334.png */; };
+		6DDA2CA81C15BC31006F925B /* MenuDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDA2CA71C15BC31006F925B /* MenuDrawerViewController.m */; };
+		F357AB46FC9656DB55B3517E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAEE8271E8C72EDA6EA665D4 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D02583F1C169DB1009D07C6 /* IntroductionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroductionViewController.h; sourceTree = "<group>"; };
+		6D0258401C169DB1009D07C6 /* IntroductionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroductionViewController.m; sourceTree = "<group>"; };
+		6D0258431C16CFAD009D07C6 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		6D0258441C16CFAD009D07C6 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		6D3E3AD01C0D8B7100690B0C /* BigFlicks-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BigFlicks-Bridging-Header.h"; sourceTree = "<group>"; };
 		6D535C011C05B8B700D72506 /* BigFlicks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigFlicks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D535C051C05B8B700D72506 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6D535C071C05B8B700D72506 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		6D535C081C05B8B700D72506 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6D535C0A1C05B8B700D72506 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6D535C0B1C05B8B700D72506 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6D535C0E1C05B8B700D72506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6D535C101C05B8B700D72506 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6D535C131C05B8B700D72506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D535C151C05B8B700D72506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D6F41691C15AB9B00F90BEB /* HomeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCollectionViewCell.h; sourceTree = "<group>"; };
+		6D6F416A1C15AB9B00F90BEB /* HomeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCollectionViewCell.m; sourceTree = "<group>"; };
+		6D6F416B1C15AB9B00F90BEB /* HomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
+		6D6F416C1C15AB9B00F90BEB /* HomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
+		6D6F41701C15AB9B00F90BEB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D6F41711C15AB9B00F90BEB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6D6F41731C15AB9B00F90BEB /* CommonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonViewController.h; sourceTree = "<group>"; };
+		6D6F41741C15AB9B00F90BEB /* CommonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonViewController.m; sourceTree = "<group>"; };
+		6D6F41761C15AB9B00F90BEB /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		6D6F41771C15AB9B00F90BEB /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		6D6F41791C15AB9B00F90BEB /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		6D6F417A1C15AB9B00F90BEB /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		6D6F417C1C15AB9B00F90BEB /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		6D6F417D1C15AB9B00F90BEB /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
+		6D6F417F1C15AB9B00F90BEB /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		6D6F41801C15AB9B00F90BEB /* Localization.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localization.strings; sourceTree = "<group>"; };
+		6D6F41821C15AB9B00F90BEB /* UtilityMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityMethods.h; sourceTree = "<group>"; };
+		6D6F41831C15AB9B00F90BEB /* UtilityMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityMethods.m; sourceTree = "<group>"; };
+		6D76E5D21C180ECA00CC52CF /* MovieDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieDetailViewController.h; sourceTree = "<group>"; };
+		6D76E5D31C180ECA00CC52CF /* MovieDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieDetailViewController.m; sourceTree = "<group>"; };
+		6D76E5D71C18220D00CC52CF /* bouncematic.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bouncematic.mp4; sourceTree = "<group>"; };
+		6DDA2C9D1C15B3EF006F925B /* 1242*2208.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1242*2208.png"; sourceTree = "<group>"; };
+		6DDA2C9E1C15B3EF006F925B /* 640*1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "640*1136.png"; sourceTree = "<group>"; };
+		6DDA2C9F1C15B3EF006F925B /* 640*960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "640*960.png"; sourceTree = "<group>"; };
+		6DDA2CA01C15B3EF006F925B /* 750*1334.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "750*1334.png"; sourceTree = "<group>"; };
+		6DDA2CA61C15BC31006F925B /* MenuDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuDrawerViewController.h; sourceTree = "<group>"; };
+		6DDA2CA71C15BC31006F925B /* MenuDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuDrawerViewController.m; sourceTree = "<group>"; };
+		AAEE8271E8C72EDA6EA665D4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B432BCE8A44ACA8178CBE3A3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C57CA82DD3E205F5E358042B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +77,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F357AB46FC9656DB55B3517E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D02583E1C169D7D009D07C6 /* IntroductionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6D02583F1C169DB1009D07C6 /* IntroductionViewController.h */,
+				6D0258401C169DB1009D07C6 /* IntroductionViewController.m */,
+			);
+			path = IntroductionViewController;
+			sourceTree = "<group>";
+		};
+		6D0258421C16CF68009D07C6 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6D0258431C16CFAD009D07C6 /* LoginViewController.h */,
+				6D0258441C16CFAD009D07C6 /* LoginViewController.m */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
 		6D535BF81C05B8B700D72506 = {
 			isa = PBXGroup;
 			children = (
 				6D535C031C05B8B700D72506 /* BigFlicks */,
 				6D535C021C05B8B700D72506 /* Products */,
+				AA295F630790A079EEFE48E0 /* Pods */,
+				9E13B1744F300F7D491E501A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,15 +123,12 @@
 		6D535C031C05B8B700D72506 /* BigFlicks */ = {
 			isa = PBXGroup;
 			children = (
-				6D535C071C05B8B700D72506 /* AppDelegate.h */,
-				6D535C081C05B8B700D72506 /* AppDelegate.m */,
-				6D535C0A1C05B8B700D72506 /* ViewController.h */,
-				6D535C0B1C05B8B700D72506 /* ViewController.m */,
-				6D535C0D1C05B8B700D72506 /* Main.storyboard */,
+				6DDA2C9B1C15B3EF006F925B /* Assets */,
+				6D6F41661C15AB9B00F90BEB /* Classes */,
 				6D535C101C05B8B700D72506 /* Assets.xcassets */,
-				6D535C121C05B8B700D72506 /* LaunchScreen.storyboard */,
 				6D535C151C05B8B700D72506 /* Info.plist */,
 				6D535C041C05B8B700D72506 /* Supporting Files */,
+				6D3E3AD01C0D8B7100690B0C /* BigFlicks-Bridging-Header.h */,
 			);
 			path = BigFlicks;
 			sourceTree = "<group>";
@@ -79,6 +141,170 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6D6F41661C15AB9B00F90BEB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6D6F41671C15AB9B00F90BEB /* Common */,
+				6D6F416E1C15AB9B00F90BEB /* Controllers */,
+				6D6F417E1C15AB9B00F90BEB /* Support */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6D6F41671C15AB9B00F90BEB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6D6F41681C15AB9B00F90BEB /* CustomCells */,
+				6D6F416D1C15AB9B00F90BEB /* CustomView */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		6D6F41681C15AB9B00F90BEB /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				6D6F41691C15AB9B00F90BEB /* HomeCollectionViewCell.h */,
+				6D6F416A1C15AB9B00F90BEB /* HomeCollectionViewCell.m */,
+				6D6F416B1C15AB9B00F90BEB /* HomeTableViewCell.h */,
+				6D6F416C1C15AB9B00F90BEB /* HomeTableViewCell.m */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		6D6F416D1C15AB9B00F90BEB /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		6D6F416E1C15AB9B00F90BEB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6D0258421C16CF68009D07C6 /* LoginViewController */,
+				6D02583E1C169D7D009D07C6 /* IntroductionViewController */,
+				6DDA2CA51C15BC1B006F925B /* MenuDrawerViewController */,
+				6D6F416F1C15AB9B00F90BEB /* AppDelegate */,
+				6D6F41721C15AB9B00F90BEB /* CommonViewController */,
+				6D6F41751C15AB9B00F90BEB /* HomeViewController */,
+				6D6F41781C15AB9B00F90BEB /* MasterViewController */,
+				6D6F417B1C15AB9B00F90BEB /* SplashViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6D6F416F1C15AB9B00F90BEB /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				6D6F41701C15AB9B00F90BEB /* AppDelegate.h */,
+				6D6F41711C15AB9B00F90BEB /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		6D6F41721C15AB9B00F90BEB /* CommonViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6D6F41731C15AB9B00F90BEB /* CommonViewController.h */,
+				6D6F41741C15AB9B00F90BEB /* CommonViewController.m */,
+			);
+			path = CommonViewController;
+			sourceTree = "<group>";
+		};
+		6D6F41751C15AB9B00F90BEB /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6D6F41761C15AB9B00F90BEB /* HomeViewController.h */,
+				6D6F41771C15AB9B00F90BEB /* HomeViewController.m */,
+				6D76E5D21C180ECA00CC52CF /* MovieDetailViewController.h */,
+				6D76E5D31C180ECA00CC52CF /* MovieDetailViewController.m */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		6D6F41781C15AB9B00F90BEB /* MasterViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6D6F41791C15AB9B00F90BEB /* MasterViewController.h */,
+				6D6F417A1C15AB9B00F90BEB /* MasterViewController.m */,
+			);
+			path = MasterViewController;
+			sourceTree = "<group>";
+		};
+		6D6F417B1C15AB9B00F90BEB /* SplashViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6D6F417C1C15AB9B00F90BEB /* SplashViewController.h */,
+				6D6F417D1C15AB9B00F90BEB /* SplashViewController.m */,
+			);
+			path = SplashViewController;
+			sourceTree = "<group>";
+		};
+		6D6F417E1C15AB9B00F90BEB /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				6D6F417F1C15AB9B00F90BEB /* Constant.h */,
+				6D6F41801C15AB9B00F90BEB /* Localization.strings */,
+				6D6F41811C15AB9B00F90BEB /* UtilityMethods */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		6D6F41811C15AB9B00F90BEB /* UtilityMethods */ = {
+			isa = PBXGroup;
+			children = (
+				6D6F41821C15AB9B00F90BEB /* UtilityMethods.h */,
+				6D6F41831C15AB9B00F90BEB /* UtilityMethods.m */,
+			);
+			path = UtilityMethods;
+			sourceTree = "<group>";
+		};
+		6DDA2C9B1C15B3EF006F925B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6D76E5D71C18220D00CC52CF /* bouncematic.mp4 */,
+				6DDA2C9C1C15B3EF006F925B /* Default images */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		6DDA2C9C1C15B3EF006F925B /* Default images */ = {
+			isa = PBXGroup;
+			children = (
+				6DDA2C9D1C15B3EF006F925B /* 1242*2208.png */,
+				6DDA2C9E1C15B3EF006F925B /* 640*1136.png */,
+				6DDA2C9F1C15B3EF006F925B /* 640*960.png */,
+				6DDA2CA01C15B3EF006F925B /* 750*1334.png */,
+			);
+			path = "Default images";
+			sourceTree = "<group>";
+		};
+		6DDA2CA51C15BC1B006F925B /* MenuDrawerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6DDA2CA61C15BC31006F925B /* MenuDrawerViewController.h */,
+				6DDA2CA71C15BC31006F925B /* MenuDrawerViewController.m */,
+			);
+			path = MenuDrawerViewController;
+			sourceTree = "<group>";
+		};
+		9E13B1744F300F7D491E501A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAEE8271E8C72EDA6EA665D4 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA295F630790A079EEFE48E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C57CA82DD3E205F5E358042B /* Pods.debug.xcconfig */,
+				B432BCE8A44ACA8178CBE3A3 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +312,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D535C181C05B8B700D72506 /* Build configuration list for PBXNativeTarget "BigFlicks" */;
 			buildPhases = (
+				5D5DC529D515DC9C98D0C346 /* Check Pods Manifest.lock */,
 				6D535BFD1C05B8B700D72506 /* Sources */,
 				6D535BFE1C05B8B700D72506 /* Frameworks */,
 				6D535BFF1C05B8B700D72506 /* Resources */,
+				954E226E9FAF44592334B21B /* Embed Pods Frameworks */,
+				2C8B3AF45812FAECD91F19D5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,45 +366,88 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D535C141C05B8B700D72506 /* LaunchScreen.storyboard in Resources */,
+				6DDA2CA11C15B3EF006F925B /* 1242*2208.png in Resources */,
+				6D76E5D81C18220D00CC52CF /* bouncematic.mp4 in Resources */,
+				6DDA2CA31C15B3EF006F925B /* 640*960.png in Resources */,
+				6DDA2CA41C15B3EF006F925B /* 750*1334.png in Resources */,
+				6D6F418B1C15AB9B00F90BEB /* Localization.strings in Resources */,
+				6DDA2CA21C15B3EF006F925B /* 640*1136.png in Resources */,
 				6D535C111C05B8B700D72506 /* Assets.xcassets in Resources */,
-				6D535C0F1C05B8B700D72506 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C8B3AF45812FAECD91F19D5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D5DC529D515DC9C98D0C346 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		954E226E9FAF44592334B21B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6D535BFD1C05B8B700D72506 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D535C0C1C05B8B700D72506 /* ViewController.m in Sources */,
-				6D535C091C05B8B700D72506 /* AppDelegate.m in Sources */,
+				6D6F41861C15AB9B00F90BEB /* AppDelegate.m in Sources */,
 				6D535C061C05B8B700D72506 /* main.m in Sources */,
+				6DDA2CA81C15BC31006F925B /* MenuDrawerViewController.m in Sources */,
+				6D6F41841C15AB9B00F90BEB /* HomeCollectionViewCell.m in Sources */,
+				6D6F418A1C15AB9B00F90BEB /* SplashViewController.m in Sources */,
+				6D0258411C169DB1009D07C6 /* IntroductionViewController.m in Sources */,
+				6D76E5D41C180ECA00CC52CF /* MovieDetailViewController.m in Sources */,
+				6D6F41851C15AB9B00F90BEB /* HomeTableViewCell.m in Sources */,
+				6D6F418C1C15AB9B00F90BEB /* UtilityMethods.m in Sources */,
+				6D0258451C16CFAD009D07C6 /* LoginViewController.m in Sources */,
+				6D6F41871C15AB9B00F90BEB /* CommonViewController.m in Sources */,
+				6D6F41881C15AB9B00F90BEB /* HomeViewController.m in Sources */,
+				6D6F41891C15AB9B00F90BEB /* MasterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		6D535C0D1C05B8B700D72506 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6D535C0E1C05B8B700D72506 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6D535C121C05B8B700D72506 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6D535C131C05B8B700D72506 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6D535C161C05B8B700D72506 /* Debug */ = {
@@ -260,23 +532,32 @@
 		};
 		6D535C191C05B8B700D72506 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C57CA82DD3E205F5E358042B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BigFlicks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BigFlix.BigFlicks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BigFlicks/BigFlicks-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		6D535C1A1C05B8B700D72506 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B432BCE8A44ACA8178CBE3A3 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BigFlicks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BigFlix.BigFlicks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BigFlicks/BigFlicks-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -299,6 +580,7 @@
 				6D535C1A1C05B8B700D72506 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
