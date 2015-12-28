@@ -10,6 +10,8 @@
 
 @implementation UtilityMethods
 
+#pragma mark - Button
+
 + (UIButton *)createButtonWithBackgroundImageNormal:(NSString*)imageName andSelectedImageName:(NSString *)selectedImage title:(NSString *)title FontName:(NSString *)fontName fontSize:(CGFloat)fontSize fontColorHex:(NSString *)fontColor eventTarget:(id)targetObject action:(SEL)action tag:(NSInteger)tag {
     
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -24,6 +26,8 @@
     return button;
 }
 
+#pragma mark - Color
+
 + (UIColor *)colorFromHexString:(NSString *)hexString {
 
     unsigned rgbValue = 0;
@@ -32,6 +36,8 @@
     [scanner scanHexInt:&rgbValue];
     return [UIColor colorWithRed:((rgbValue & 0xFF0000) >> 16)/255.0 green:((rgbValue & 0xFF00) >> 8)/255.0 blue:(rgbValue & 0xFF)/255.0 alpha:1.0];
 }
+
+#pragma mark - Label
 
 + (UILabel *)createLabelWitText:(NSString *)titleText font:(NSString *)fontName fontSize:(CGFloat)fontSize fontColorHex:(NSString *)fontColor textAlignment:(NSTextAlignment)textAlignment {
     
@@ -45,5 +51,34 @@
     
     return label;
     
+}
+
+#pragma mark - ImageView
+
++ (UIImageView *)createImageViewWithImageName:(NSString *)imagename {
+
+    if (imagename) {
+        
+    }
+    
+    UIImageView *imageview = [[UIImageView alloc]initWithImage:[UIImage imageNamed:imagename]];
+    
+    return imageview;
+    
+}
+
+#pragma mark - String Utils 
+
+- (BOOL)isStringPresent:(NSString *)string {
+    
+    if (string == (id)[NSNull null] || string.length == 0 ) {
+        
+        return NO;
+    }else {
+        
+        return YES;
+    }
+        
+    return YES;
 }
 @end

@@ -18,7 +18,6 @@
     
     if (self) {
         
-        [self configureUI];
     }
     return self;
 }
@@ -52,8 +51,11 @@
     
 }
 
-- (void)setCollectionData:(NSMutableDictionary *)collectionData {
+- (void)setCollectionData:(NSMutableDictionary *)collectionData forSectionNumber:(NSUInteger)sectionNumber {
     
+    [self configureUI];
+    
+    self.cellNumber = sectionNumber;
     _collectionData = collectionData;
     [_homeCellCollectionView setContentOffset:CGPointZero animated:NO];
     [_homeCellCollectionView reloadData];

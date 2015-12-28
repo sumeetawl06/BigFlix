@@ -1,20 +1,28 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8072594D4DCA1CB5A851F9C6C2D4215A84C35D52",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
     "fd40db35-9b6b-5447-befd-cf6d51a19f95++505" : {
 
     }
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "fd40db35-9b6b-5447-befd-cf6d51a19f95++505" : 0
+    "fd40db35-9b6b-5447-befd-cf6d51a19f95++505" : 0,
+    "8072594D4DCA1CB5A851F9C6C2D4215A84C35D52" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FE91E302-CC61-430B-AB51-274C3AB37ED1",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "fd40db35-9b6b-5447-befd-cf6d51a19f95++505" : ""
+    "fd40db35-9b6b-5447-befd-cf6d51a19f95++505" : "",
+    "8072594D4DCA1CB5A851F9C6C2D4215A84C35D52" : "BigFlicks\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "BigFlicks",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BigFlicks.xcworkspace",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/sumeetawl06\/BigFlix.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8072594D4DCA1CB5A851F9C6C2D4215A84C35D52"
+    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/10.184.80.44\/svn\/Bigflix_IOS",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",

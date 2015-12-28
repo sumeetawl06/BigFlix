@@ -17,4 +17,6 @@
 
 + (UILabel *)createLabelWitText:(NSString *)titleText font:(NSString *)fontName fontSize:(CGFloat)fontSize fontColorHex:(NSString *)fontColor textAlignment:(NSTextAlignment)textAlignment;
 
++ (UIImageView *)createImageViewWithImageName:(NSString *)imagename;
+
 @end

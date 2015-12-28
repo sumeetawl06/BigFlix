@@ -94,9 +94,9 @@
 
 - (void)createPaegController {
     
-    [self.view addSubview:self.pageControllerScrollView];
-    
-    [self setConstraintsForPageControlScrollView];
+//    [self.view addSubview:self.pageControllerScrollView];
+//    
+//    [self setConstraintsForPageControlScrollView];
     
 }
 
@@ -112,6 +112,8 @@
     }
     return _homeTableView;
 }
+
+// Scroll View Not Needed
 
 - (UIScrollView *)pageControllerScrollView {
     
@@ -129,7 +131,7 @@
     [_pageControllerScrollView setPagingEnabled:YES];
     _pageControllerScrollView.showsHorizontalScrollIndicator = NO;
     UIPageControl *pageControl = [[UIPageControl alloc] init];
-    pageControl.frame = CGRectMake(110,5,100,100);
+    pageControl.frame = CGRectMake(110,145,100,20);
     pageControl.numberOfPages = 2;
     pageControl.currentPage = 0;
     [self.view addSubview:pageControl];
@@ -144,9 +146,11 @@
     [self.homeTableView autoPinEdgeToSuperviewEdge:ALEdgeLeft withInset:0.0];
     [self.homeTableView autoPinEdgeToSuperviewEdge:ALEdgeRight withInset:0.0];
     [self.homeTableView autoPinEdgeToSuperviewEdge:ALEdgeBottom withInset:0.0];
-    [self.homeTableView autoPinEdge:ALEdgeTop toEdge:ALEdgeBottom ofView:self.pageControllerScrollView withOffset:10];
+    [self.homeTableView autoPinEdge:ALEdgeTop toEdge:ALEdgeBottom ofView:self.navigationBar withOffset:10];
 
 }
+
+// Scroll View Not Required
 
 - (void)setConstraintsForPageControlScrollView {
     
@@ -185,7 +189,7 @@
     
     NSLog(@"Indexpath.row %ld", (long)indexPath.section);
     
-    [cell setCollectionData:[self.sampleData objectAtIndex:indexPath.section]];
+    [cell setCollectionData:[self.sampleData objectAtIndex:indexPath.section]  forSectionNumber:indexPath.section];
 //    cell.textLabel.text = @"text";
     
     return cell;

@@ -29,8 +29,6 @@
     
     [self showSplashScreen];
     
-    
-    
 }
 
 - (void)didReceiveMemoryWarning {

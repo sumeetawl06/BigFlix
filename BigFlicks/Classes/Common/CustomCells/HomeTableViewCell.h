@@ -17,12 +17,13 @@
 
 @interface HomeTableViewCell : UITableViewCell <UICollectionViewDelegate, UICollectionViewDataSource>
 
-- (void)setCollectionData:(NSMutableDictionary *)collectionData;
+- (void)setCollectionData:(NSMutableDictionary *)collectionData forSectionNumber:(NSUInteger)sectionNumber;
 
 @property (nonatomic, assign) id<HomeTableViewCellDelegate> homeTableViewCellDelegate;
 
 @property (nonatomic, strong) UICollectionView *homeCellCollectionView;
-@property (strong, nonatomic) NSMutableDictionary *collectionData;
+@property (nonatomic, strong) NSMutableDictionary *collectionData;
 
+@property (nonatomic, assign) NSInteger cellNumber;
 
 @end
