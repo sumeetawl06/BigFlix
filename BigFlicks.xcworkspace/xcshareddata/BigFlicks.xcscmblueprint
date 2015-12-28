@@ -1,0 +1,24 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "fd40db35-9b6b-5447-befd-cf6d51a19f95++505" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "fd40db35-9b6b-5447-befd-cf6d51a19f95++505" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FE91E302-CC61-430B-AB51-274C3AB37ED1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "fd40db35-9b6b-5447-befd-cf6d51a19f95++505" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BigFlicks",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BigFlicks.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/10.184.80.44\/svn\/Bigflix_IOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "fd40db35-9b6b-5447-befd-cf6d51a19f95++505"
+    }
+  ]
+}
